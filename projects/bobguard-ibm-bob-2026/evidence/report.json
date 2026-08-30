@@ -1,0 +1,9 @@
+{
+  "project": "BobGuard — Evidence-Gated Modernization with IBM Bob 2.0",
+  "generated_at_utc": "2026-08-30T09:46:14Z",
+  "status": 0,
+  "summary": "PASS parity_cases=8 validation_cases=2",
+  "behavioral_parity": "Behavioral parity: PASS",
+  "runtime_ms": 601,
+  "method": "Compile legacy and modular implementations, execute deterministic parity cases, and verify matched failure behavior."
+}

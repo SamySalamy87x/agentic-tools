@@ -1,0 +1,24 @@
+{
+  "project": "OMROS FollowThrough",
+  "validation_date": "2026-09-02",
+  "scope": "deterministic evidence and authority-policy core",
+  "command": "python -m unittest discover -s tests -v",
+  "tests_run": 6,
+  "tests_passed": 6,
+  "tests_failed": 0,
+  "validated_behaviors": [
+    "proposal evidence checklist includes required fields",
+    "missing evidence is surfaced explicitly",
+    "low-risk missing-information follow-up is delegable",
+    "payment remains blocked even when authority_confirmed is supplied",
+    "unknown action escalates by default without explicit authority",
+    "decision packet requires a human when required evidence is missing"
+  ],
+  "not_yet_validated": [
+    "live Strands model invocation",
+    "Amazon Bedrock credentials/model access",
+    "hosted deployment",
+    "20-case end-to-end benchmark",
+    "public demo video"
+  ]
+}

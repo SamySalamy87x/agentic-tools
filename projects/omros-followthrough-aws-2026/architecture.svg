@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <rect width="1400" height="760" fill="#08111f"/>
+  <style>
+    .t{font-family:Arial,sans-serif;fill:#edf3ff}.h{font-size:34px;font-weight:700}.s{font-size:19px}.box{fill:#111b2e;stroke:#7183a8;stroke-width:2;rx:18}.gate{fill:#2a2110;stroke:#d2a94a;stroke-width:3;rx:18}.human{fill:#142f27;stroke:#60d2a5;stroke-width:3;rx:18}.line{stroke:#9fb0d0;stroke-width:3;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#9fb0d0"/></marker></defs>
+  <text x="70" y="70" class="t h">OMROS FollowThrough · Evidence-Gated Operational Agent</text>
+  <text x="70" y="105" class="t s">Strands Agents SDK orchestrates the loop; deterministic policy code defines authority.</text>
+  <rect x="70" y="170" width="220" height="105" class="box"/><text x="100" y="215" class="t s">Inbound request</text><text x="100" y="245" class="t s">+ context</text>
+  <rect x="350" y="170" width="250" height="105" class="box"/><text x="380" y="210" class="t s">Evidence checklist</text><text x="380" y="242" class="t s">+ missing facts</text>
+  <rect x="660" y="170" width="270" height="105" class="gate"/><text x="695" y="210" class="t s">Deterministic</text><text x="695" y="242" class="t s">authority / policy gate</text>
+  <rect x="990" y="170" width="290" height="105" class="box"/><text x="1020" y="210" class="t s">Low-risk follow-up</text><text x="1020" y="242" class="t s">or decision packet</text>
+  <path d="M290 222 L350 222" class="line"/><path d="M600 222 L660 222" class="line"/><path d="M930 222 L990 222" class="line"/>
+  <rect x="350" y="390" width="250" height="115" class="box"/><text x="380" y="430" class="t s">Strands Agent</text><text x="380" y="462" class="t s">tool calls + reasoning</text><text x="380" y="488" class="t s">within bounded contract</text>
+  <rect x="660" y="390" width="270" height="115" class="box"/><text x="695" y="430" class="t s">Audit trail</text><text x="695" y="462" class="t s">evidence + gate result</text><text x="695" y="488" class="t s">+ unresolved fields</text>
+  <rect x="990" y="390" width="290" height="115" class="human"/><text x="1020" y="430" class="t s">Human surfaces only for</text><text x="1020" y="462" class="t s">real decision / authority</text><text x="1020" y="488" class="t s">boundary</text>
+  <path d="M475 275 L475 390" class="line"/><path d="M600 447 L660 447" class="line"/><path d="M930 447 L990 447" class="line"/>
+  <text x="70" y="620" class="t s">Hard-blocked: payments · financial authorization · contracts/signatures · identity/KYC · clinical decisions · legal advice/filings</text>
+  <text x="70" y="670" class="t s">Delegable: evidence checks · missing-information requests · status follow-up · summaries · scheduling · audit preparation</text>
+</svg>
